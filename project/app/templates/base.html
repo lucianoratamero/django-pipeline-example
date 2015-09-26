@@ -1,0 +1,18 @@
+{% load pipeline %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>django-pipeline example</title>
+    {% stylesheet 'bootstrap' %}
+    {% stylesheet 'custom' %}
+</head>
+<body>
+
+    {% block content %}
+    {% endblock content %}
+
+    {% javascript 'jquery' %}
+    {% javascript 'bootstrap' %}
+</body>
+</html>
