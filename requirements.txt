@@ -1,6 +1,6 @@
 boto==2.38.0
 Collectfast==0.2.3
-Django==1.8.4
+Django==1.11.23
 django-pipeline==1.5.4
 futures==3.0.3
 python-dateutil==2.4.2
